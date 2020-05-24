@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+	<row>
+		<button color="green" text="Black 1" ondown="adown" onup="aup"/>
+		<button icon="up" ontap="up" />		
+		<button color="red" text="Black 2" ondown="sdown" onup="sup"/>
+	</row>
+	<row>
+		<button icon="left" ontap="left" />
+		<button icon="down" ontap="down" />
+		<button icon="right" ontap="right" />
+	</row>
+	<row>
+		<button text="Black 3" color="yellow" ondown="jdown" onup="jup"/>
+		<button text="White 1" color="blue" ondown="kdown" onup="kup" />
+		<button text="White 2" color="orange" ondown="ldown" onup="lup" />
+	</row>
+	<row/>
+	<row>
+		<button color="black" text="Select" ondown="hdown" onup="hup"/>		
+		<button color="black" text="Start" ontap="enter"/>		
+	</row>
+</layout>
+
